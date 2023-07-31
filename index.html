@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Travel</title>
+  <style>
+    .front {
+      background-color: black;
+
+    }
+
+    .back {
+      opacity: 0.5;
+      width: 100%;
+    }
+
+    .black {
+      font-size: medium;
+      color: rgb(247, 239, 239);
+    }
+
+    .blackk {
+      font-size: larger;
+      color: rgb(239, 233, 233);
+    }
+
+.inner{
+  max-width:100%;
+}
+
+    .make {
+      opacity: 1;
+    }
+
+    .cover {
+      text-align: center !important;
+      justify-content: center;
+      padding: 3rem 20rem;
+    }
+
+    .lead {
+      font-size: 1.25rem;
+      font-weight: 300;
+      padding: 20px 20px;
+    }
+
+    .line {
+      width: 100%;
+      height: 2px 2px;
+      background-color: rgb(11, 8, 14);
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+
+
+    }
+
+    .size {
+      margin-top: 50px;
+      margin-bottom: -20px;
+
+      background-color: rgb(161, 171, 171);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Travelopia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/resource.html">Resources</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Booking
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/bus.html">Bus</a>
+            <a class="dropdown-item" href="/flight.html">Flight</a>
+            <a class="dropdown-item" href="/ship.html">Ship</a>
+            <a class="dropdown-item" href="/train.html">Train</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="front">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="back" src="agra.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="blackk"><b>Welcome to INDIA</b></h2>
+            <p class="black"><b>Travelling means learning and in India you get to see lots of different cultures,
+                languages, festivals and what not. So join us in this incredeble journey of yours.</b></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="back" src="hawa.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Hawa Mahal</h5>
+            <p>The Hawa Mahal is a palace in the city of Jaipur, India. Built from red and pink sandstone, it is on the edge of the City Palace, Jaipur, and extends to the Zenana, or women's chambers..</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="back" src="maunt.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Dalhausie</h5>
+            <p>A wonderful retreat in the lap of the stunning Himalayas, Dalhousie is known for snow-capped mountains, pine-clad valleys, gorgeous landscapes, and gurgling waterfalls..</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <main role="main" class="inner cover">
+    <hr class="line">
+    <h1 class="cover-heading">Travelopia</h1>
+    <p class="lead">India is a diverse country in terms of its culture, religion, tradition, language and what not. Once
+      you travel here you get some unreal experiences that you had never before. So, to make your travelling journey
+      smooth and easy <b>Travelopia</b> is a one and only solution. It can help you with booking your tickets, finding
+      guides, exploring local cousines and many more things.</p>
+    <hr class="line">
+  </main>
+
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-danger">India</strong>
+            <h3 class="mb-0">Rajasthan</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto">Rajasthan is a state of vibrant folk dance and music, gigantic forts and
+              palaces, spicy food, colourful and large turbans,..</p>
+            <a href="https://www.tourmyindia.com/states/rajasthan/" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="make" class="bd-placeholder-img" width="200" height="250" src="thumb1.jpeg" alt="">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-warning">India</strong>
+            <h3 class="mb-0">Banglore</h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">Bangalore, popularly known as the ‘Garden City’ represents a rich cultural heritage of
+              the past era combined with..</p>
+            <a href="https://www.tripoto.com/bangalore" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="make" class="bd-placeholder-img" width="200" height="250" src="thumb2.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">India</strong>
+            <h3 class="mb-0">Shimla</h3>
+            <div class="mb-1 text-muted">Nov 13</div>
+            <p class="card-text mb-auto">Shimla offers much more than charming colonial buildings against a backdrop of
+              the magnificent snow...</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="make" class="bd-placeholder-img" width="200" height="250" src="thumb3.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">India</strong>
+            <h3 class="mb-0">Goa</h3>
+            <div class="mb-1 text-muted">Nov 15</div>
+            <p class="mb-auto">Even though Goa is the smallest state on the Western coast of India, it is one of the
+              most popular due to its rich...</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="make" class="bd-placeholder-img" width="200" height="250" src="thumb4.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <span class="center">
+      <a href="#" class="btn btn-lg btn-dark" class="coll">Explore more</a>
+    </span>
+  </div>
+
+  <footer class="size" class="py-5">
+    <hr>
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Features</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Corona virus F&Q</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About travelopia.com</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Customer service help</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms and Condition</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy & cookie statement</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Stay</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Appartment</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Villas</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hostels</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Resort</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>About</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">How we work</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Review</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Discover</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Save time! Save money!</h5>
+          <p>Sign up to get news of exciting deals</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Signup</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2023 Travelopia, Inc. All rights reserved.</p>
+    </div>
+
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

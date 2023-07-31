@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Travel</title>
+  <style>
+    body {
+      background-color: whitesmoke;
+    }
+
+    #block {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .flexx {
+      margin-bottom: 30px;
+      margin-top: 50px;
+      margin-left: 250px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      width: 1100px;
+      height: 80px;
+      border-radius: 21px;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+      background-color: rgb(44, 44, 39);
+      animation: color 9s infinite linear;
+    }
+
+    @keyframes color {
+      0% {
+        background: #070808;
+      }
+
+      20% {
+        background: #20313f;
+      }
+
+      40% {
+        background: #072555;
+      }
+
+      60% {
+        background: #031289;
+      }
+
+      80% {
+        background: #3d029c;
+      }
+
+    }
+
+    .form {
+      margin-left: 10px;
+      margin-right: 20px;
+      border-radius: 3px;
+      height: 40px;
+    }
+
+    .fix {
+
+      margin-top: 20px;
+      font-weight: 500;
+      color: rgb(236, 239, 241);
+    }
+
+    /* .card-img img{
+      width: 100%;
+      opacity: 0.5;
+
+    }*/
+    .form-control {
+      padding-bottom: 80px;
+      margin-right: 90px;
+      height: 50px;
+      background-color: rgb(232, 226, 226);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .top {
+      width: 100%;
+      color: aliceblue;
+      margin-top: 100px;
+      background-color: #000002;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+      border-radius: 80px;
+    }
+
+    .height {
+      display: block;
+      justify-content: center;
+      margin-left: 400px;
+      margin-top: 50px;
+      font-size: 800px;
+    }
+
+    .card-text {
+      display: flex;
+      justify-content: center;
+      height: 90px;
+      width: 100%;
+    }
+
+    .big {
+      height: 200px;
+      width: 200px;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid rgb(242, 240, 240);
+      border-collapse: collapse;
+
+    }
+
+    .head {
+      margin-left: 10px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    table {
+      background-color: white;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+      
+    }
+
+    .center {
+      text-align: center;
+    }
+tr:hover{
+  background-color: #f7f4f4;
+
+  color:rgb(16, 15, 15);
+}
+
+    .left {
+      padding-left: 10px;
+    }
+
+    .bttn:hover{
+      color: #fdfdfe;
+      background-color: rgb(73, 19, 109);
+      border-radius: 20px;
+      border: #28044b;
+    }
+    .gang{
+      display: flex;
+      margin-top: 30px;
+      width: 70%;
+      margin-left: 15%;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+
+    }
+    .cont{
+      width:100%;
+      background-color: #fdfdfd;
+    }
+    .side{
+      margin-left: 55px;
+    }
+    .side:hover{
+      color: lightseagreen;
+    }
+    .tabe{
+      justify-content: space-evenly;
+      list-style-type: none;
+    }
+    .night{
+      border-style: groove;
+border-width: 2px;
+
+    }
+    .sell{
+      margin-left: 12px;
+    }
+    .selll{
+      margin-left: 55px;
+
+    }
+    .items{
+      display: flex;
+      font-size: 11px;
+      list-style-type: none;
+
+word-spacing:2em; 
+
+    }
+    .list{
+      margin:70px;
+    }
+   .err{
+    margin-left: -90px;
+    background-color: #e4e3e3;
+width: 300px;
+text-align: center;
+   }
+   .ecash{
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 20px;
+   }
+   .blue{
+    background-color: rgb(100, 187, 237);
+    border:rgb(100, 187, 237);
+    border-radius: 10px;
+    
+   }
+   .blue:hover{
+    background-color: #031289;
+    border-radius: 10px;
+    border:rgb(100, 187, 237);
+color:#f7f4f4;
+   }
+   .class{
+    border-radius: 21px;
+   }
+   .space{
+    margin-left: 53px;
+   }
+   .spac{
+        margin-left: 53px;
+margin-top: -20px;
+   }
+   .price{
+    font-weight: 40px;
+    font-size: 20px;
+   }
+   .ecash{
+    margin-top: 65px;
+   }
+    .size {
+      margin-top: 200px;
+      margin-bottom: -20px;
+
+      background-color: rgb(161, 171, 171);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Travelopia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/resource.html">Resources</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="/" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Booking
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/bus.html">Bus</a>
+            <a class="dropdown-item" href="/flight.html">Flight</a>
+            <a class="dropdown-item" href="/ship.html">Ship</a>
+            <a class="dropdown-item" href="/train.html">Train</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <h3 id="block">Book Domestic Cruise here</h3>
+  <div class="flexx">
+    <div class="fix">
+      <label for="exampleDataList" class="box" class="form-label">Search Destination/River</label>
+    </div>
+    <div class="fix">
+      <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Enter city">
+    </div>
+    <div class="fix">
+      <label for="exampleDataList" class="box" class="form-label">Date</label>
+    </div>
+    <div class="fix">
+      <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Enter Date">
+    </div>
+
+    <div class="fix"><button type="button" class="btn btn-danger" id="box"> Search Cruise</button></div>
+  </div>
+  <div class="top" style="width: 100%">
+    <div class="card text-bg-dark">
+      <img src="cruise - Copy.jpeg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <span class="height">
+          <h1 class="card-title"> You haven't lived until you have sailed</h1>
+        </span>
+        <h4 class="card-text">Welcome to Indian cruise</h4>
+      </div>
+    </div>
+  </div>
+  <div class="tab">
+    <h4 class="head">Popular India Cruise Packages</h4>
+    <table style="width:100%">
+      <tr>
+        <th class="left">Indian packages</th>
+        <th class="center">Price</th>
+        <th class="center">Night</th>
+        <th class="center">inclusives</th>
+        <th class="center"> </th>
+
+      </tr>
+      <tr>
+        <td class="left">Alluring Gangtok</td>
+
+        <td class="center">17,999</td>
+        <td class="center">3 Nights</td>
+        <td class="center">Meals , Flights , Accommodation ,Transfer<div>Sightseeing</div>
+        </td>
+        <td class="center white"><button type="button" class="btn btn-danger bttn">View Details</button>
+        </td>
+
+      </tr>
+      <tr>
+        <td class="left">Fascinating Andaman with Photoshoot and glass bottom ride</td>
+        <td class="center">24,054</td>
+        <td class="center">2 Nights</td>
+        <td class="center">Meals , Accommodation ,Transfer<div> Sightseeing</div>
+        </td>
+        <td class="center"><button type="button" class="btn btn-danger bttn">View Details</button>
+        </td>
+
+      </tr>
+      <tr>
+        <td class="left">Munnar-thekkadey-Alleppy</td>
+        <td class="center">20,752</td>
+        <td class="center">5 Nights</td>
+        <td class="center">Meals , Accommodation ,Transfer , <div> Sightseeing</div>
+        </td>
+        <td class="center"><button type="button" class="btn btn-danger bttn">View Details</button>
+        </td>
+
+      </tr>
+      <tr>
+        <td class="left">Sweet mist of Manali</td>
+        <td class="center">23,000</td>
+        <td class="center">3 Nights</td>
+        <td class="center">Meals , Accommodation , volvo,Transfer , <div> Sightseeing</div>
+        </td>
+        <td class="center"><button type="button" class="btn btn-danger bttn">View Details</button>
+        </td>
+
+      </tr>
+      <tr>
+        <td class="left">Apple bud hotel-Manali</td>
+        <td class="center">18,554</td>
+        <td class="center">2 Nights</td>
+        <td class="center">Meals , Accommodation , volvo, Transfer , <div> Sightseeing</div>
+        </td>
+        <td class="center"><button type="button" class="btn btn-danger bttn">View Details</button>
+        </td>
+
+      </tr>
+    </table>
+
+  </div>
+
+
+<div class="gang">
+  <img class="img-responsive $imgMinHeight class" height="270" width="380" data-cfill="fill" data-gauto="auto" data-quality="auto" data-width="380" data-height="270" data-fauto="jpg" src="img.jpeg" alt="Alluring Gangtok">
+  <div class="cont">
+    <h3 class="side">Alluring Gangtok</h3>
+    <ul class="tabe">
+      <li class="col"> <span class="night">3 Nights</span></li>
+      <li class="sell">Seller : <a class="link" href="#">Travalopia.com</a></li>
+      </ul>
+        <small class="selll">Gangtok (3)</small>
+        <ul class="items">
+          <li><i class="list"></i><p>Meals</p></li>
+           <li><i class="list"></i><p>Optional</p></li>
+            <li><i class="list"></i><p>Accommodation</p></li>
+         </ul>
+          </div>
+          <div class="err">
+            <p class="new"><span class="block">EMI</span> 
+              <i class="rs">Rs.</i>1,106</p>
+           <div class="price"><i class="rs"><b>Rs.</i>17,999</b></div>
+           <p class="..">Per Person on twin sharing</p>  
+           <button class="blue">view details</button>
+           
+           <ul class="ecash">
+           <li>Earn eCash</li>
+           <li class=""><i class="rs">Rs.</i>539</li>
+           </ul>
+          </div>
+</div>
+<div class="gang">
+  <img class="img-responsive $imgMinHeight class" height="270" width="380" data-cfill="fill" data-gauto="auto" data-quality="auto" data-width="380" data-height="270" data-fauto="jpg" src="img2.jpeg" alt="Alluring Gangtok">
+  <div class="cont">
+    <h3 class="side">Fascinating andaman with <p>underwater photoshoot</p></h3>
+    <ul class="tabe">
+      <li class="col"> <span class="night">4 Nights</span></li>
+      <li class="sell">Seller : <a class="link" href="#">Travalopia.com</a></li>
+      </ul>
+        <small class="selll">Port Blair---> (1) Havelock Island --->(1) Neil Island ----> (1) Port Blair (1)</small>
+        <p class="space">
+          Andaman witnessed the first sunrise of the millennium. An island that captures misty, <p class="spac">amber reflections of the sun, soaks...</p>
+        </p>
+          </div>
+          <div class="err">
+            <p class="new"><span class="block">EMI</span> 
+              <i class="rs">Rs.</i>1,906</p>
+           <div class="price"><i class="rs"><b>Rs.</i>10,799</b></div>
+           <p class="..">Per Person on twin sharing</p>  
+           <button class="blue">view details</button>
+           
+           <ul class="ecash">
+           <li>Earn eCash</li>
+           <li class=""><i class="rs">Rs.</i>539</li>
+           </ul>
+          </div>
+</div>
+<div class="gang">
+  <img class="img-responsive $imgMinHeight class" height="270" width="380" data-cfill="fill" data-gauto="auto" data-quality="auto" data-width="380" data-height="270" data-fauto="jpg" src="img3.jpeg" alt="Alluring Gangtok">
+  <div class="cont">
+    <h3 class="side">Munnar-thekkadey-Alleppy</h3>
+    <ul class="tabe">
+      <li class="col"> <span class="night">3 Nights</span></li>
+      <li class="sell">Seller : <a class="link" href="#">Travalopia.com</a></li>
+      </ul>
+        <small class="selll">Munnar (2)---> Thekkady (1)--->Alleppey (1)</small>
+        <p class="space">From pristine beaches to famed wildlife reserves, Kerala offers its <p class="spac">travellers an experience that will completely rejuvenate thei...</p> </p>
+          
+          </div>
+          <div class="err">
+            <p class="new"><span class="block">EMI</span> 
+              <i class="rs">Rs.</i>2,106</p>
+           <div class="price"><i class="rs"><b>Rs.</i>24,999</b></div>
+           <p class="..">Per Person on twin sharing</p>  
+           <button class="blue">view details</button>
+           
+           <ul class="ecash">
+           <li>Earn eCash</li>
+           <li class=""><i class="rs">Rs.</i>539</li>
+           </ul>
+          </div>
+</div>
+
+
+  <footer class="size" class="py-5">
+    <hr>
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Features</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Corona virus F&Q</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About travelopia.com</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Customer service help</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms and Condition</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy & cookie statement</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Stay</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Appartment</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Villas</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hostels</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Resort</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>About</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">How we work</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Review</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Discover</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Save time! Save money!</h5>
+          <p>Sign up to get news of exciting deals</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Signup</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2023 Travelopia, Inc. All rights reserved.</p>
+    </div>
+
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
